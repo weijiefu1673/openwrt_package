@@ -7,6 +7,6 @@ include $(TOPDIR)/rules.mk
 LUCI_TITLE:=LuCI for CPU Freq Setting
 LUCI_DEPENDS:=+cpufreq
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
